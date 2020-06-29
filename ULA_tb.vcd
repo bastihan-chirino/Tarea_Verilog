@@ -1,0 +1,41 @@
+$date
+	Sun Jun 21 19:07:05 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ULA_tb $end
+$var wire 8 ! OUT [7:0] $end
+$var wire 1 " CARRY $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$var reg 2 % COND [1:0] $end
+$scope module uut $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var wire 2 ( COND [1:0] $end
+$var wire 8 ) OUT [7:0] $end
+$var wire 9 * aux [8:0] $end
+$var wire 1 " CARRY $end
+$var reg 8 + RESULTADO [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1100110 +
+b1100110 *
+b1100110 )
+b0 (
+b1100000 '
+b110 &
+b0 %
+b1100000 $
+b110 #
+0"
+b1100110 !
+$end
+#20
